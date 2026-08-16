@@ -17,6 +17,13 @@ Questions, bug reports, feature requests, or privacy requests:
 
 We aim to respond within a few days (privacy requests within 30 days).
 
+## What Backflip does
+
+- [Workout tracker & gym log](/backflip-legal/workout-tracker)
+- [AI workout coach](/backflip-legal/ai-workout-coach)
+- [Muscle recovery tracking](/backflip-legal/muscle-recovery)
+- [Voice workout logging](/backflip-legal/voice-workout-logging)
+
 ## Legal
 
 - [Privacy Policy](/backflip-legal/privacy)
