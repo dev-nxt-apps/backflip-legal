@@ -3,12 +3,12 @@ title: Backflip — Privacy Policy
 permalink: /privacy
 ---
 
-<!-- version: 6 -->
+<!-- version: 7 -->
 
 # Privacy Policy for Backflip
 
 **Effective Date:** July 22, 2026
-**Last Updated:** August 4, 2026
+**Last Updated:** August 17, 2026
 
 SimplerApps ("we," "our," or "us") built Backflip as a free fitness app. This
 Privacy Policy explains how we collect, use, and protect your information when
@@ -27,9 +27,9 @@ EU/UK GDPR and ePrivacy rules, and the California CCPA.
 
 ### Information You Provide Directly
 
-- **Account information:** When you create an account, we collect your email
-  address. If you sign in with Apple, we receive your Apple ID and the email
-  address you choose to share (which may be an Apple private-relay address).
+- **Account information:** You sign in with Apple to use Backflip. We receive
+  your Apple ID and the email address you choose to share (which may be an
+  Apple private-relay address).
 - **Fitness profile:** Information you enter during onboarding and in your
   profile — such as training goals, experience level, training days, preferred
   units, and any injuries or areas you ask us to train around.
@@ -86,7 +86,8 @@ to prefill your profile.
 
 Backflip writes to Apple Health only when you complete a workout on your phone
 **without** a paired Apple Watch, so the session still reaches the Fitness app.
-It writes **workouts**, their **active energy burned**, and the **workout effort
+It writes **workouts**, their **active energy burned**, their **distance** (for
+walks, runs, hikes, rides, rows, and skating sessions), and the **workout effort
 score** you rate.
 
 - We access Health data **only with your explicit permission**, granted through
@@ -124,9 +125,7 @@ Backflip is **offline-first**. Your account, profile, and workout data are store
 **locally on your device** in an on-device database. We do not operate a cloud
 account server for this data, and your data is not transmitted to us except, if
 you opt in, the anonymous analytics and the early-access waitlist address
-described in Section 1. Your account
-password, if you use email sign-in, is stored only as a salted PBKDF2 hash in
-the device Keychain — we never store or transmit your plaintext password.
+described in Section 1.
 
 ---
 
@@ -168,7 +167,7 @@ third-party analytics, advertising, or crash-reporting SDKs.
 
 | Service | Purpose | Privacy Policy |
 |---------|---------|----------------|
-| Sign in with Apple | Optional account sign-in | [Apple Privacy](https://www.apple.com/legal/privacy/) |
+| Sign in with Apple | Account sign-in (required to use Backflip) | [Apple Privacy](https://www.apple.com/legal/privacy/) |
 | Apple HealthKit | Read/write your Health data with your permission | [Apple Privacy](https://www.apple.com/legal/privacy/) |
 
 ---
@@ -193,8 +192,6 @@ We implement reasonable technical and organizational measures to protect your
 information, including:
 
 - HTTPS/TLS for any network communication;
-- Storage of your password only as a salted PBKDF2-HMAC hash in the device
-  Keychain, verified with a constant-time comparison;
 - Local, on-device storage of your personal data by default.
 
 No method of storage or transmission is 100% secure, but we take commercially
@@ -251,8 +248,7 @@ will respond within 30 days.
 
 ## 9. Children's Privacy
 
-Backflip is not intended for children under 13, and where required we treat users
-under 18 as requiring verifiable parental consent. We do not knowingly collect
+Backflip is not directed at children under 13, and we do not knowingly collect
 personal information from children under 13. If we learn that we have collected
 such information, we will delete it promptly. If you believe a child has
 provided us with personal information, contact us at backflip.customersupport@gmail.com.

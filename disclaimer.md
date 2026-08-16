@@ -3,7 +3,7 @@ title: Backflip — Medical & AI Disclaimer
 permalink: /disclaimer
 ---
 
-<!-- version: 6 -->
+<!-- version: 7 -->
 
 # Medical & AI Disclaimer
 
