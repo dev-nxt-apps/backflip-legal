@@ -3,7 +3,7 @@ title: Backflip — Terms of Use & EULA
 permalink: /terms
 ---
 
-<!-- version: 7 -->
+<!-- version: 8 -->
 
 # Terms of Use & End-User License Agreement for Backflip
 

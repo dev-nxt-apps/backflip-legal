@@ -18,12 +18,13 @@ it heard, and logs it when you confirm.
 
 - **It shows you what it heard** before anything is saved — a number you did
   not say never lands in your history.
-- **It handles how people actually talk.** "Bench, 2 plates a side, 8 reps."
-  "Same as last time."
+- **It handles full sentences, not commands.** "Bench press 3 sets of 10 at
+  60 kilos." "Deadlift 12, 10 and 8 reps at 100 kg."
 - **It picks the right movement** from a catalogue of over 1,300, and asks
   when a name is genuinely ambiguous.
-- **Nothing leaves your phone** because of a voice entry — your log is stored
-  on your device.
+- **Your log stays on your device.** Backflip never stores or transmits the
+  audio; transcription is Apple's speech recognition, on your iPhone whenever
+  it supports on-device recognition for your language.
 
 ## When you would rather tap
 

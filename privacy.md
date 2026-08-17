@@ -3,7 +3,7 @@ title: Backflip — Privacy Policy
 permalink: /privacy
 ---
 
-<!-- version: 7 -->
+<!-- version: 8 -->
 
 # Privacy Policy for Backflip
 
@@ -35,6 +35,13 @@ EU/UK GDPR and ePrivacy rules, and the California CCPA.
   units, and any injuries or areas you ask us to train around.
 - **Workout data:** The workouts, exercises, sets, reps, weights, rest periods,
   routines, schedules, and body-weight entries you log.
+- **Voice entry (optional):** If you choose to log a workout by voice, your
+  iPhone's microphone captures your dictation and Apple's speech recognition
+  transcribes it — on your device whenever on-device recognition is available
+  for your language, otherwise through Apple's server-based recognition (see
+  Section 5). Backflip never stores or transmits the audio itself; only the
+  transcribed text is used to fill in the workout draft, which you review
+  before anything is saved.
 - **Support requests:** If you contact us, we collect your email address and the
   contents of your message.
 
@@ -169,6 +176,7 @@ third-party analytics, advertising, or crash-reporting SDKs.
 |---------|---------|----------------|
 | Sign in with Apple | Account sign-in (required to use Backflip) | [Apple Privacy](https://www.apple.com/legal/privacy/) |
 | Apple HealthKit | Read/write your Health data with your permission | [Apple Privacy](https://www.apple.com/legal/privacy/) |
+| Apple Speech Recognition | Transcribes voice workout entries — on your device when available for your language, otherwise Apple's servers process the audio | [Apple Privacy](https://www.apple.com/legal/privacy/) |
 
 ---
 
