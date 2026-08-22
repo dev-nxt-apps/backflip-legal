@@ -3,12 +3,13 @@ title: Backflip — Privacy Policy
 permalink: /privacy
 ---
 
-<!-- version: 8 -->
+<!-- version: 9 -->
 
 # Privacy Policy for Backflip
 
 **Effective Date:** July 22, 2026
-**Last Updated:** August 17, 2026
+
+**Last Updated:** August 22, 2026
 
 SimplerApps ("we," "our," or "us") built Backflip as a free fitness app. This
 Privacy Policy explains how we collect, use, and protect your information when
@@ -111,11 +112,15 @@ score** you rate.
 - **Anonymous usage analytics (optional, OFF by default):** If — and only if —
   you turn on "Share anonymous usage analytics" in Settings, Backflip collects
   anonymous, aggregate feature-usage events (for example, which screens are
-  used). These events are **not linked to your identity** and **never include
-  the contents of your workouts or your health data**. This is disabled by
-  default; nothing is collected unless you opt in, and turning it off deletes
-  anything queued for upload. As of this version the analytics endpoint is not
-  configured, so no usage data leaves the device.
+  used). These events are **not linked to your name, email, or Apple
+  ID** and **never include the contents of your workouts or your health data**. This is disabled by
+  default; nothing is collected unless you opt in. Each event carries a random
+  identifier generated on your device — enough to tell one anonymous install
+  from another, and nothing more. When analytics is on, these events are sent to
+  **PostHog**, our analytics processor, and are stored on its servers in the
+  **European Union**. Turning analytics off deletes anything still queued on your
+  device and retires that random identifier, so a later opt-in starts a new
+  anonymous record rather than resuming the old one.
 
 ### Information We Do NOT Collect
 
@@ -130,9 +135,9 @@ score** you rate.
 
 Backflip is **offline-first**. Your account, profile, and workout data are stored
 **locally on your device** in an on-device database. We do not operate a cloud
-account server for this data, and your data is not transmitted to us except, if
-you opt in, the anonymous analytics and the early-access waitlist address
-described in Section 1.
+account server for this data, and your data leaves your device only where
+Section 1 says it does: if you opt in, the anonymous usage analytics (to our
+processor PostHog, in the European Union) and the early-access waitlist address.
 
 ---
 
@@ -169,14 +174,17 @@ SimplerApps, our users, or the public.
 
 ## 5. Third-Party Services
 
-Backflip uses the following first-party Apple services. It does **not** use any
-third-party analytics, advertising, or crash-reporting SDKs.
+Backflip uses the services below. It does **not** use any advertising or
+crash-reporting service, it does not embed any third-party tracking SDK, and it
+does not track you across other apps or websites. The one non-Apple service is
+our analytics processor, which receives data only where you have opted in.
 
 | Service | Purpose | Privacy Policy |
 |---------|---------|----------------|
 | Sign in with Apple | Account sign-in (required to use Backflip) | [Apple Privacy](https://www.apple.com/legal/privacy/) |
 | Apple HealthKit | Read/write your Health data with your permission | [Apple Privacy](https://www.apple.com/legal/privacy/) |
 | Apple Speech Recognition | Transcribes voice workout entries — on your device when available for your language, otherwise Apple's servers process the audio | [Apple Privacy](https://www.apple.com/legal/privacy/) |
+| PostHog (EU Cloud) | Anonymous usage analytics — only if you turn analytics on | [PostHog Privacy](https://posthog.com/privacy) |
 
 ---
 
@@ -185,7 +193,10 @@ third-party analytics, advertising, or crash-reporting SDKs.
 - **Account, profile, and workout data:** Retained on your device for as long
   as you keep your account. Deleted when you delete your account or the app.
 - **Anonymous analytics (if enabled):** Aggregated and anonymized; not linked to
-  you. Turning analytics off deletes anything queued on your device.
+  you. Turning analytics off deletes anything still queued on your device and
+  retires the random identifier. Events already delivered are held by our
+  processor in the European Union and are not withdrawn by turning the setting
+  off — but nothing you do after that point is joined to them.
 - **Early-access waitlist address (if you joined):** Until the announcement is
   sent or you leave the list, whichever comes first, and never more than 24
   months. Leaving the list erases the copy held on your device immediately.

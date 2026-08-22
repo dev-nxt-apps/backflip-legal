@@ -3,11 +3,12 @@ title: Backflip — Terms of Use & EULA
 permalink: /terms
 ---
 
-<!-- version: 8 -->
+<!-- version: 9 -->
 
 # Terms of Use & End-User License Agreement for Backflip
 
 **Effective Date:** July 22, 2026
+
 **Last Updated:** July 28, 2026
 
 Please read these Terms of Use and End-User License Agreement ("Terms") carefully
